@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>星域联盟 | 荣誉殿堂</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.0.2/dist/css/adminlte.min.css">
+    <link href="https://fonts.loli.net/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <style>
+        .info-box-text {
+            white-space: normal!important
+        }
+    </style>
+</head>
+<body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <div class="content-header">
+                <h1 class="m-0 text-dark">星域联盟</h1>
+            </div>
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row" id="app">
+                        <div v-for="msg in msgs" class="col-md-3">
+                            <div class="card card-success card-outline">
+                                <div class="card-header">
+                                    <h3 class="card-title text-fuchsia">{{ msg.name }}</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="info-box">
+                                                <span class="col-3 info-box-icon elevation-1" :class="'bg-' + getRandomColor()">
+                                                    <img v-if="msg.name !== '你'" :src="avatar_url + msg.name" :alt="msg.name" width="45" height="45">
+                                                    <p v-else>你</p>
+                                                </span>
+                                                <div class="info-box-content">
+                                                    <span v-for="lore in msg.lores" class="info-box-text text-green">{{ lore }}</span>
+                                                    <span class="info-box-number text-blue">颁奖人：{{ msg.issuer }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2018 -  现在 <a href="#">星域联盟</a>.</strong> All rights reserved. <strong>|</strong> <a href="http://www.beian.miit.gov.cn" id="beian">京 ICP 备 undefined 号 - undefined</a>
+        <footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.0.2/dist/js/adminlte.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        const COLORS = [
+            'primary',
+            'warning',
+            'info',
+            'danger',
+            'success',
+            'indigo',
+            'navy',
+            'purple',
+            'fuchsia',
+            'pink',
+            'maroon',
+            'orange',
+            'lime',
+            'teal',
+            'olive'
+        ];
+
+        function getRandomColor() {
+            return COLORS[Math.floor(Math.random() * COLORS.length)];
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                avatar_url: 'https://skin.mcstaralliance.com/avatar/player/',
+                msgs: []
+            }
+        });
+
+        function getHonorList() {
+            fetch(`data_xysj.json?v=20200314`)
+                .then(response => response.json())
+                .then(data => app.msgs = data);
+        }
+
+        getHonorList();
+    </script>
+</body>
+</html>

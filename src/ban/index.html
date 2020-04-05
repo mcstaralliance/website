@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>星域联盟封禁物品查询平台</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/admin-lte@2.4.18/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/admin-lte@2.4.18/dist/css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <style>
+        .info-box-text {
+            text-transform: none;
+        }
+    </style>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="index.html" class="logo">
+                <span class="logo-mini"><i class="fas fa-bookmark"></i></span>
+                <span class="logo-lg">星域联盟</span>
+            </a>
+
+            <nav class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle fa5" data-toggle="push-menu" role="button"></a>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <ul class="sidebar-menu" data-widget="tree">
+                    <li id="1.12.2"><a href="#1.12.2"><i class="fas fa-tachometer-alt"></i> <span>星域世界 1.12.2</span></a></li>
+                </ul>
+            </section>
+        </aside>
+
+        <div class="content-wrapper">
+            <section class="content container-fluid">
+                <div id="app">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-red">
+                                <p style="cursor: pointer;">ℹ️</p>
+                            </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Information</span>
+                                <span class="info-box-number">使用 <code>CTRL+F</code> 来搜索</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-for="msg in msgs" class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon" :class="'bg-' + getRandomColor()">
+                                <img v-if="msg.img !== undefined" v-lazy="msg.img" :alt="msg.name">
+                                <p v-else>{{ msg.name[0] }}</p>
+                            </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">{{ msg.from }}</span>
+                                <span class="info-box-number">{{ msg.name }}</span>
+                                <span class="info-box-text text-blue">{{ msg.reason == null ? getRandomRestrictedMessage() : msg.reason }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2018 - 现在 <a href="#">星域联盟</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/admin-lte@2.4.18/dist/js/adminlte.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue-lazyload"></script>
+    <script>
+        const COLORS = [
+            'red',
+            'yellow',
+            'aqua',
+            'blue',
+            'light-blue',
+            'green',
+            'navy',
+            'teal',
+            'olive',
+            'lime',
+            'orange',
+            'fuchsia',
+            'purple',
+            'maroon',
+            'black'
+        ];
+
+        const iDontKnowWhyItsHasBeenRestrictedByOurStaff = [
+            '我不知道',
+            '我 TM 也不知道为什么会被禁',
+            '没有理由',
+            '莫得理由',
+            '太厉害了',
+            '太 NB 了',
+            '看它不爽',
+            '有 Bug',
+            '不要问，问就是有 Bug',
+            '我太难了',
+            '我太南了'
+        ];
+
+        Vue.use(VueLazyload);
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                msgs: []
+            }
+        })
+
+        function getRandomColor() {
+            return COLORS[Math.floor(Math.random() * COLORS.length)];
+        }
+
+        function getRandomRestrictedMessage() {
+            return iDontKnowWhyItsHasBeenRestrictedByOurStaff[Math.floor(Math.random() * iDontKnowWhyItsHasBeenRestrictedByOurStaff.length)];
+        }
+
+        function getRestrictedItemList() {
+            var hash = window.location.hash.substring(1);
+            hash = (hash === '' ? '1.12.2' : hash);
+
+            switch (hash) {
+                case '1.12.2':
+                case '1.7.10':
+                    document.querySelectorAll('li').forEach(e => {
+                        e.classList.remove('active')
+                    });
+                    document.getElementById(hash).classList.add('active');
+
+                    // fetch(`data_${hash}.json`, {cache: 'no-store'})
+                    fetch(`data_${hash}.json?v=20200222`)
+                        .then(response => response.json())
+                        .then(data => app.msgs = data);
+
+                    break;
+            }
+        }
+
+        getRestrictedItemList();
+        window.onhashchange = getRestrictedItemList;
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>星域联盟 | 玩家列表</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.0.2/dist/css/adminlte.min.css">
+    <link href="https://fonts.loli.net/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <div class="content-header">
+
+            </div>
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="card card-success card-outline">
+                                <div class="card-header">
+                                    <h3 class="card-title" id="player-count-s1">Loading...</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row" id="player-list-s1">
+                                        <div class="col-md-2 col-sm-12 col-12">
+                                            <div class="info-box">
+                                                <span class="info-box-icon bg-info elevation-1">
+                                                    <img src="https://skin.mcstaralliance.com/avatar/user" alt="Loading..." width="45" height="45">
+                                                </span>
+                                                <div class="info-box-content">
+                                                    <span class="info-box-text" title="Loading...">Loading...</span>
+                                                    <span class="info-box-number">❤</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-warning card-outline">
+                                <div class="card-header">
+                                    <h3 class="card-title" id="player-count-s2">Loading...</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row" id="player-list-s2">
+                                        <div class="col-md-2 col-sm-12 col-12">
+                                            <div class="info-box">
+                                                <span class="info-box-icon bg-info elevation-1">
+                                                    <img src="https://skin.mcstaralliance.com/avatar/user" alt="Loading..." width="45" height="45">
+                                                </span>
+                                                <div class="info-box-content">
+                                                    <span class="info-box-text" title="Loading...">Loading...</span>
+                                                    <span class="info-box-number">❤</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-danger card-outline">
+                                <div class="card-header">
+                                    <h3 class="card-title" id="player-count-s3">Loading...</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row" id="player-list-s3">
+                                        <div class="col-md-2 col-sm-12 col-12">
+                                            <div class="info-box">
+                                                <span class="info-box-icon bg-info elevation-1">
+                                                    <img src="https://skin.mcstaralliance.com/avatar/user" alt="Loading..." width="45" height="45">
+                                                </span>
+                                                <div class="info-box-content">
+                                                    <span class="info-box-text" title="Loading...">Loading...</span>
+                                                    <span class="info-box-number">❤</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2018 -  现在 <a href="#">星域联盟</a>.</strong> All rights reserved. <strong>|</strong> <a href="http://www.beian.miit.gov.cn" id="beian">京 ICP 备 undefined 号 - undefined</a>
+        <footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.0.2/dist/js/adminlte.min.js"></script>
+    <script src="player-list.js?v=20200329"></script>
+    <script>
+        const userAgent = navigator.userAgent;
+        if (userAgent.indexOf('com.mcstaralliance.playerlist') != -1) {
+            document.querySelector('#beian').href = '#';
+        }
+    </script>
+    <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js') }</script>
+</body>
+</html>
