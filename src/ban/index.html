@@ -33,6 +33,7 @@
             <section class="sidebar">
                 <ul class="sidebar-menu" data-widget="tree">
                     <li id="1.12.2"><a href="#1.12.2"><i class="fas fa-tachometer-alt"></i> <span>星域世界 1.12.2</span></a></li>
+                    <li id="dev"><a href="#dev"><i class="fas fa-tachometer-alt"></i> <span>星域世界 Dev</span></a></li>
                 </ul>
             </section>
         </aside>
@@ -131,10 +132,11 @@
         function getRestrictedItemList() {
             var hash = window.location.hash.substring(1);
             hash = (hash === '' ? '1.12.2' : hash);
+            hash = (hash === '' ? 'dev' : hash);
 
             switch (hash) {
                 case '1.12.2':
-                case '1.7.10':
+                case 'dev':
                     document.querySelectorAll('li').forEach(e => {
                         e.classList.remove('active')
                     });
