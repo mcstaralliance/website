@@ -132,11 +132,10 @@
         function getRestrictedItemList() {
             var hash = window.location.hash.substring(1);
             hash = (hash === '' ? '1.12.2' : hash);
-            hash = (hash === '' ? 'dev' : hash);
 
             switch (hash) {
                 case '1.12.2':
-
+                case 'dev':
                     document.querySelectorAll('li').forEach(e => {
                         e.classList.remove('active')
                     });
