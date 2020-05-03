@@ -161,11 +161,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/1/68.png"
     },
     {
-        "from": "匠魂2",
-        "name": "EFLN",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/01.png"
-    },
-    {
         "from": "应用能源2",
         "name": "ME破坏面板",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/02.png"
@@ -189,11 +184,6 @@
         "from": "时装工坊",
         "name": "全息投影仪",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/10.png"
-    },
-    {
-        "from": "匠魂2",
-        "name": "凝血弹弓",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/11.png"
     },
     {
         "from": "热力膨胀",
@@ -224,16 +214,6 @@
         "from": "末影接口",
         "name": "折返权杖",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/24.png"
-    },
-    {
-        "from": "工业先锋",
-        "name": "方块放置器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/25.png"
-    },
-    {
-        "from": "工业先锋",
-        "name": "方块破坏器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/26.png"
     },
     {
         "from": "末影接口",
@@ -326,11 +306,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/47.png"
     },
     {
-        "from": "工业先锋",
-        "name": "生物捕捉工具",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/48.png"
-    },
-    {
         "from": "热力膨胀",
         "name": "生物球",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/49.png"
@@ -369,11 +344,6 @@
         "from": "应用能源2",
         "name": "网络工具",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/56.png"
-    },
-    {
-        "from": "工业先锋",
-        "name": "自动刷怪机",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/58.png"
     },
     {
         "from": "无尽贪婪",
@@ -421,11 +391,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/68.png"
     },
     {
-        "from": "血魔法",
-        "name": "传送印记",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/69.png"
-    },
-    {
         "from": "末影接口",
         "name": "传送台",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/70.png"
@@ -436,21 +401,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/71.png"
     },
     {
-        "from": "血魔法",
-        "name": "影桥印记",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/72.png"
-    },
-    {
-        "from": "血魔法",
-        "name": "影桥试剂",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/73.png"
-    },
-    {
-        "from": "血魔法",
-        "name": "抑液印记",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/74.png"
-    },
-    {
         "from": "根源魔法",
         "name": "无尽碗",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/75.png"
@@ -459,16 +409,6 @@
         "from": "龙之进化",
         "name": "末影操纵者",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/76.png"
-    },
-    {
-        "from": "血魔法",
-        "name": "移位印记",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/77.png"
-    },
-    {
-        "from": "工业先锋",
-        "name": "附魔提取器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/79.png"
     },
     {
         "from": "末影接口",
@@ -484,10 +424,5 @@
         "from": "龙之进化",
         "name": "传送符咒收纳器",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/82.png"
-    },
-    {
-        "from": "血魔法",
-        "name": "不完善的仪式石",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/83.png"
     }
 ]
