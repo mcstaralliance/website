@@ -409,5 +409,20 @@
         "from": "龙之进化",
         "name": "传送符咒收纳器",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/82.png"
+    },
+    {
+        "from": "神秘时代6",
+        "name": "腐化瓶",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/83.png"
+    },
+    {
+        "from": "神秘时代6",
+        "name": "奥术钻探机",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/84.png"
+    },
+    {
+        "from": "神秘时代6",
+        "name": "奥术刷怪笼",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/85.png"
     }
 ]
