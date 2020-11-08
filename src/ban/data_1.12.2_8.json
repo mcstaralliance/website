@@ -100,6 +100,11 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/1/38.png"
     },
     {
+        "from": "时装工坊",
+        "name": "时装制作台",
+        "img": "https://ftp.mcstaralliance.com/images/1122/1/48.png"
+    },
+    {
         "from": "末影接口",
         "name": "气象方尖碑",
         "reason": "Weather Control.",
@@ -244,6 +249,21 @@
         "from": "樱",
         "name": "武士头盔",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/35.png"
+    },
+    {
+        "from": "樱",
+        "name": "武士护腿",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/36.png"
+    },
+    {
+        "from": "樱",
+        "name": "武士胸甲",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/37.png"
+    },
+    {
+        "from": "樱",
+        "name": "武士靴子",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/38.png"
     },
     {
         "from": "无尽贪婪",
@@ -391,183 +411,18 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/82.png"
     },
     {
-        "from": "匠魂2",
-        "name": "EFLN",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/87.png"
+        "from": "神秘时代6",
+        "name": "腐化瓶",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/84.png"
     },
     {
-        "from": "热力膨胀",
-        "name": "背包",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/88.png"
+        "from": "神秘时代6",
+        "name": "奥术钻探机",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/85.png"
     },
     {
-        "from": "建筑",
-        "name": "采石场",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/89.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "彩虹桥法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/90.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "炽心法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/91.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "大地法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/96.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "弹幕法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/97.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "地狱法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/98.png"
-    },
-    {
-        "from": "龙之进化",
-        "name": "反应堆稳定器框架",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/99.png"
-    },
-    {
-        "from": "末影接口",
-        "name": "附魔器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/100.png"
-    },
-    {
-        "from": "沉浸工程",
-        "name": "工程师工具箱",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/101.png"
-    },
-        {
-        "from": "工业2",
-        "name": "批量工作台",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/102.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "海洋法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/103.png"
-    },
-    {
-        "from": "末影接口",
-        "name": "合成器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/104.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "黑山法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/105.png"
-    },
-    {
-        "from": "沉浸工程",
-        "name": "化学喷射器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/106.png"
-    },
-    {
-        "from": "更多实用设备2",
-        "name": "黄金套索",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/107.png"
-    },
-    {
-        "from": "建筑",
-        "name": "建筑机器人",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/108.png"
-    },
-    {
-        "from": "末影接口",
-        "name": "世界锚",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/109.png"
-    },
-    {
-        "from": "应用能源",
-        "name": "迷你TNT",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/110.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "魔力风暴",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/111.png"
-    },
-    {
-        "from": "自定义NPC",
-        "name": "木工台",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/112.png"
-    },
-    {
-        "from": "工业2",
-        "name": "工业工作台",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/113.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "瓶装魔力",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/114.png"
-    },
-    {
-        "from": "更多实用设备2",
-        "name": "漆黑之门",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/115.png"
-    },
-    {
-        "from": "工业2",
-        "name": "日光灯",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/116.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "深渊法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/117.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "手掌花",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/118.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "天空法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/119.png"
-    },
-    {
-        "from": "更多实用设备2",
-        "name": "天使方块",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/120.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "小手掌花",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/121.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "星空制造器",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/122.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "移壳杆",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/123.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "占矿法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/124.png"
-    },
-    {
-        "from": "龙之进化",
-        "name": "生物灵魂",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/125.png"
-    },
-    {
-        "from": "更多实用设备2",
-        "name": "主世界之门",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/126.png"
+        "from": "神秘时代6",
+        "name": "奥术刷怪笼",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/86.png"
     }
 ]
