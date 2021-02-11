@@ -396,11 +396,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/88.png"
     },
     {
-        "from": "建筑",
-        "name": "采石场",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/89.png"
-    },
-    {
         "from": "植物魔法",
         "name": "彩虹桥法杖",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/90.png"
@@ -466,16 +461,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/106.png"
     },
     {
-        "from": "更多实用设备2",
-        "name": "黄金套索",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/107.png"
-    },
-    {
-        "from": "建筑",
-        "name": "建筑机器人",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/108.png"
-    },
-    {
         "from": "末影接口",
         "name": "世界锚",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/109.png"
@@ -506,11 +491,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/114.png"
     },
     {
-        "from": "更多实用设备2",
-        "name": "漆黑之门",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/115.png"
-    },
-    {
         "from": "工业2",
         "name": "日光灯",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/116.png"
@@ -529,11 +509,6 @@
         "from": "植物魔法",
         "name": "天空法杖",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/119.png"
-    },
-    {
-        "from": "更多实用设备2",
-        "name": "天使方块",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/120.png"
     },
     {
         "from": "植物魔法",
@@ -561,8 +536,58 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/125.png"
     },
     {
-        "from": "更多实用设备2",
-        "name": "主世界之门",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/126.png"
+        "from": "应用能源2",
+        "name": "me矿典输出总线",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/127.png"
+    },
+    {
+        "from": "额外植物学",
+        "name": "世界塑造者之星盘",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/128.png"
+    },
+    {
+        "from": "暮色森林",
+        "name": "拆解台",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/129.png"
+    },
+    {
+        "from": "超级太阳能发电机",
+        "name": "金刚杵",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/130.png"
+    },
+    {
+        "from": "额外植物学",
+        "name": "拉普达碎片",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/131.png"
+    },
+    {
+        "from": "暮色森林",
+        "name": "魔豆",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/132.png"
+    },
+    {
+        "from": "植物魔法",
+        "name": "魔力脉冲枪",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/133.png"
+    },
+    {
+        "from": "植物魔法",
+        "name": "晴天娃娃",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/134.png"
+    },
+    {
+        "from": "植物魔法",
+        "name": "生命聚合器",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/135.png"
+    },
+    {
+        "from": "工业2",
+        "name": "炸药",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/136.png"
+    },
+    {
+        "from": "工业2",
+        "name": "粘性炸药",
+        "img": "https://ftp.mcstaralliance.com/images/1122/2/137.png"
     }
 ]
