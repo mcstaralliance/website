@@ -52,22 +52,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/1/17.png"
     },
     {
-        "from": "时装工坊",
-        "name": "资源库",
-        "img": "https://ftp.mcstaralliance.com/images/1122/1/18.png"
-    },
-    {
-        "from": "工业2",
-        "name": "复制机",
-        "img": "https://ftp.mcstaralliance.com/images/1122/1/22.png"
-    },
-    {
-        "from": "龙之进化",
-        "name": "发电机",
-        "reason": "Crash client.",
-        "img": "https://ftp.mcstaralliance.com/images/1122/1/23.png"
-    },
-    {
         "from": "龙之进化",
         "name": "龙箱",
         "img": "https://ftp.mcstaralliance.com/images/1122/1/24.png"
@@ -88,11 +72,6 @@
         "name": "高级采矿机",
         "reason": "Protection bypass.",
         "img": "https://ftp.mcstaralliance.com/images/1122/1/36.png"
-    },
-    {
-        "from": "时装工坊",
-        "name": "全球资源库",
-        "img": "https://ftp.mcstaralliance.com/images/1122/1/37.png"
     },
     {
         "from": "龙之进化",
@@ -156,16 +135,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/1/68.png"
     },
     {
-        "from": "应用能源2",
-        "name": "ME破坏面板",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/02.png"
-    },
-    {
-        "from": "应用能源2",
-        "name": "ME流体破坏面板",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/03.png"
-    },
-    {
         "from": "无尽贪婪",
         "name": "世界崩解之镐",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/07.png"
@@ -176,16 +145,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/08.png"
     },
     {
-        "from": "时装工坊",
-        "name": "全息投影仪",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/10.png"
-    },
-    {
-        "from": "热力膨胀",
-        "name": "可复用生物球",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/15.png"
-    },
-    {
         "from": "无尽贪婪",
         "name": "地蕴复生之锄",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/20.png"
@@ -194,11 +153,6 @@
         "from": "工业2",
         "name": "工业TNT",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/21.png"
-    },
-    {
-        "from": "沉浸工程",
-        "name": "工程师装配台",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/22.png"
     },
     {
         "from": "沉浸工程",
@@ -221,24 +175,9 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/29.png"
     },
     {
-        "from": "末影接口",
-        "name": "杀手乔",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/31.png"
-    },
-    {
         "from": "工业2",
         "name": "核弹",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/32.png"
-    },
-    {
-        "from": "工业2",
-        "name": "模式储存机",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/33.png"
-    },
-    {
-        "from": "工业2",
-        "name": "模式扫描机",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/34.png"
     },
     {
         "from": "无尽贪婪",
@@ -401,26 +340,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/90.png"
     },
     {
-        "from": "植物魔法",
-        "name": "炽心法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/91.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "大地法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/96.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "弹幕法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/97.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "地狱法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/98.png"
-    },
-    {
         "from": "龙之进化",
         "name": "反应堆稳定器框架",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/99.png"
@@ -449,11 +368,6 @@
         "from": "末影接口",
         "name": "合成器",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/104.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "黑山法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/105.png"
     },
     {
         "from": "沉浸工程",
@@ -497,18 +411,8 @@
     },
     {
         "from": "植物魔法",
-        "name": "深渊法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/117.png"
-    },
-    {
-        "from": "植物魔法",
         "name": "手掌花",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/118.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "天空法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/119.png"
     },
     {
         "from": "植物魔法",
@@ -526,11 +430,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/123.png"
     },
     {
-        "from": "植物魔法",
-        "name": "占矿法杖",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/124.png"
-    },
-    {
         "from": "龙之进化",
         "name": "生物灵魂",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/125.png"
@@ -546,34 +445,14 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/128.png"
     },
     {
-        "from": "暮色森林",
-        "name": "拆解台",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/129.png"
-    },
-    {
         "from": "超级太阳能发电机",
         "name": "金刚杵",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/130.png"
     },
     {
-        "from": "额外植物学",
-        "name": "拉普达碎片",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/131.png"
-    },
-    {
-        "from": "暮色森林",
-        "name": "魔豆",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/132.png"
-    },
-    {
         "from": "植物魔法",
         "name": "魔力脉冲枪",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/133.png"
-    },
-    {
-        "from": "植物魔法",
-        "name": "晴天娃娃",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/134.png"
     },
     {
         "from": "植物魔法",
