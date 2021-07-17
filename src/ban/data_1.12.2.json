@@ -200,11 +200,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/2/44.png"
     },
     {
-        "from": "工业2",
-        "name": "物质生成机",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/45.png"
-    },
-    {
         "from": "末影接口",
         "name": "玄钢升级“存入”",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/46.png"
@@ -283,16 +278,6 @@
         "from": "龙之进化",
         "name": "高级传送符咒",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/66.png"
-    },
-    {
-        "from": "应用能源",
-        "name": "ME成型面板",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/67.png"
-    },
-    {
-        "from": "应用能源",
-        "name": "ME流体成型面板",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/68.png"
     },
     {
         "from": "末影接口",
