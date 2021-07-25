@@ -112,12 +112,6 @@
         "img": "https://ftp.mcstaralliance.com/images/1122/1/57.png"
     },
     {
-        "from": "林业",
-        "name": "所有背包",
-        "reason": "Dupe bugs",
-        "img": "https://ftp.mcstaralliance.com/images/1122/1/58.png"
-    },
-    {
         "from": "工业2",
         "name": "区块加载器",
         "img": "https://ftp.mcstaralliance.com/images/1122/1/64.png"
@@ -313,11 +307,6 @@
         "from": "匠魂2",
         "name": "EFLN",
         "img": "https://ftp.mcstaralliance.com/images/1122/2/87.png"
-    },
-    {
-        "from": "热力膨胀",
-        "name": "背包",
-        "img": "https://ftp.mcstaralliance.com/images/1122/2/88.png"
     },
     {
         "from": "植物魔法",
