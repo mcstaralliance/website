@@ -119,11 +119,11 @@
         return players;
     }
 
-    timeout(5000, fetch("https://s1-api.mcstaralliance.com:11493/onlinePlayers"))
+    timeout(5000, fetch("https://play.mcstaralliance.com:9001/onlinePlayers"))
         .then(response => response.json())
         .then(data => {
             document.querySelector("#player-list-s1").innerHTML = "";
-            document.querySelector("#player-count-s1").textContent = `[星域之巅] 当前有 ${data.length} 个玩家在线`;
+            document.querySelector("#player-count-s1").textContent = `[繁星城] 当前有 ${data.length} 个玩家在线`;
 
             const players = handlePlayerNameList(data);
 
@@ -135,11 +135,11 @@
             document.querySelector("#player-list-s1").innerHTML = timeoutTips;
         });
 
-    timeout(5000, fetch("https://s1-api.mcstaralliance.com:11494/onlinePlayers"))
+    timeout(5000, fetch("https://play.mcstaralliance.com:9002/onlinePlayers"))
         .then(response => response.json())
         .then(data => {
             document.querySelector("#player-list-s2").innerHTML = "";
-            document.querySelector("#player-count-s2").textContent = `[星瀚之境] 当前有 ${data.length} 个玩家在线`;
+            document.querySelector("#player-count-s2").textContent = `[聚星届] 当前有 ${data.length} 个玩家在线`;
 
             const players = handlePlayerNameList(data);
 
@@ -149,22 +149,6 @@
         })
         .catch(err => {
             document.querySelector("#player-list-s2").innerHTML = timeoutTips;
-        });
-
-    timeout(5000, fetch("https://s1-api.mcstaralliance.com:11495/onlinePlayers"))
-        .then(response => response.json())
-        .then(data => {
-            document.querySelector("#player-list-s3").innerHTML = "";
-            document.querySelector("#player-count-s3").textContent = `[灵梦幻域] 当前有 ${data.length} 个玩家在线`;
-
-            const players = handlePlayerNameList(data);
-
-            players.forEach(player => {
-                document.querySelector("#player-list-s3").innerHTML += buildPlayerElement(player);
-            });
-        })
-        .catch(err => {
-            document.querySelector("#player-list-s3").innerHTML = timeoutTips;
         });
 
 })();
