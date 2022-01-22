@@ -139,7 +139,7 @@
         .then(response => response.json())
         .then(data => {
             document.querySelector("#player-list-s2").innerHTML = "";
-            document.querySelector("#player-count-s2").textContent = `[聚星届] 当前有 ${data.length} 个玩家在线`;
+            document.querySelector("#player-count-s2").textContent = `[聚星界] 当前有 ${data.length} 个玩家在线`;
 
             const players = handlePlayerNameList(data);
 
